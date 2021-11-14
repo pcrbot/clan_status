@@ -11,7 +11,7 @@ Hoshino 2 模块, 读取 yobot 的 sqlite3 数据库反馈当前会战状态(已
     git clone https://github.com/Ayusummer/ClanStatus.git
   ```
 - 打开 `clan_status.py`, 修改 line11 yobot 数据库的路径
-- 打开 `__bot__.py` 在 `MODULES_ON` 中添加 `'ClanStatus'`
+- 打开 `__bot__.py` 在 `MODULES_ON` 中添加 `'clan_status'`
 - 重启 `hoshino`
 
 ---
